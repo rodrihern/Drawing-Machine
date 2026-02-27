@@ -1,0 +1,15 @@
+void inicio() {
+	penUp();
+
+	setear la direccion en x
+	ir hasta el fin de carrera en loop
+
+	setear la direccion en y
+	ir hasta el fin de carrera en loop
+
+	penDown();
+	
+	pedir que coloquen la lapicera y esperar
+
+	penUp();
+}

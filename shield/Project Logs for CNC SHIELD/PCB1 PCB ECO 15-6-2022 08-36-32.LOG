@@ -1,0 +1,21 @@
+Added Component: Designator=J6(HDR1X4 blanquito)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=J7(HDR1X4 blanquito)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=2B_X Pin=J6-1
+Added Pin To Net: NetName=2A_X Pin=J6-2
+Added Pin To Net: NetName=1A_X Pin=J6-3
+Added Pin To Net: NetName=1B_X Pin=J6-4
+Added Pin To Net: NetName=2B_Y Pin=J7-1
+Added Pin To Net: NetName=2A_Y Pin=J7-2
+Added Pin To Net: NetName=1A_Y Pin=J7-3
+Added Pin To Net: NetName=1B_Y Pin=J7-4
+Added Member To Class: ClassName=Sheet1 Member=Component J6 Header 4 blanquito
+Added Member To Class: ClassName=Sheet1 Member=Component J7 Header 4 blanquito
+Added Member To Class: ClassName=Sheet1 Member=Component J13 DIGITALES
