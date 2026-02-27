@@ -1,6 +1,6 @@
 # Drawing Machine
 
-Plotter de dibujo construido durante el secundario. La máquina mueve un marcador en los ejes X e Y usando motores paso a paso, y sube/baja el marcador con un servo, todo controlado por un Arduino con una CNC Shield.
+Plotter de dibujo construido junto a 3 compañeros durante el secundario. La máquina mueve un marcador en los ejes X e Y usando motores paso a paso, y sube/baja el marcador con un servo, todo controlado por un Arduino con una CNC Shield.
 
 ## Hardware
 
@@ -10,6 +10,8 @@ Plotter de dibujo construido durante el secundario. La máquina mueve un marcado
 - 1 servo (eje Z, para subir/bajar el marcador)
 - 2 finales de carrera (home X e Y)
 - Estructura mecánica propia (ver carpeta `parts3d/`)
+
+El shield fue diseñado en Altium (archivos en `shield/`) y es equivalente al **Arduino CNC Shield v3**
 
 ### Área de dibujo
 
@@ -51,9 +53,9 @@ Antes de correrlo, ajustar el puerto COM en el script y pasarle la ruta al archi
 
 2. **Filtrar arcos** (convertir arcos a segmentos rectos): https://constant-flow.github.io/arc-breaker/
 
-3. **Conectar el Arduino** y correr el script Python:
+3. **Conectar el Arduino** Copiar y pegar el archivo gcode del dibujo en `drawing_to_send.txt` y correr el script Python:
    ```bash
-   python src/Prueba_esperar_al_ok.py
+   python src/sender.py
    ```
 
 ## Estructura del repositorio
